@@ -23,6 +23,7 @@ class PrototypesController < ApplicationController
   end
 
   def edit
+    @prototype = Tweet.find(params[:id])
   end
 
 
